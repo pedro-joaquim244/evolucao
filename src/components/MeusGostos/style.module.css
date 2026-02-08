@@ -38,8 +38,7 @@ h1 {
     display: flex;
     gap: 48px;
     width: 55%;
-    margin: 60px auto;
-    padding: 12px;
+    margin: 11px auto;
     border-radius: 32px;
     box-shadow: rgba(196, 159, 255, 0.16) 0px 1px 4px, rgb(117, 78, 255) 0px 0px 0px 3px;
 
@@ -54,6 +53,7 @@ h1 {
         color: #9c8fffc4;
         font-family: "Playwrite NZ Basic", cursive;
         text-align: center;
+        
 
     }
     p {
@@ -64,4 +64,8 @@ h1 {
         font-weight: 800;
         font-family: "Poppins", sans-serif;
     }   
+}
+
+h2{
+    margin-top: 40px;
 }

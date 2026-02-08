@@ -1,0 +1,131 @@
+/* ================= CARD ================= */
+.card {
+    background-color: #9c8fffc4;
+    border-radius: 16px;
+    padding: 30px;
+    width: 490px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #d1d5db;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-family: "Playwrite NZ Basic", cursive;
+    font-weight: 900;
+}
+
+/* ================= CARROSSEL ================= */
+.pessoas {
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+    width: 80%;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    gap: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* ================= ITEM ================= */
+.pessoa {
+    flex: 1 0 25%;
+    height: 100%;
+    perspective: 1200px;
+}
+
+/* Container que gira */
+.flipCard {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease;
+}
+
+/* Gira no hover */
+.pessoa:hover .flipCard {
+    transform: rotateY(180deg);
+}
+
+/* Frente e verso */
+.front,
+.text_pessoa {
+    position: absolute;
+    inset: 0;
+
+    backface-visibility: hidden;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Frente */
+.front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Verso */
+.text_pessoa {
+    background: linear-gradient(135deg, #6a5cff, #9c8fff);
+    color: white;
+
+    flex-direction: column;
+    gap: 10px;
+
+    transform: rotateY(180deg);
+    padding: 20px;
+}
+
+/* Texto */
+.text_pessoa h3 {
+    font-size: 24px;
+    font-weight: 700;
+       font-family: "Playwrite NZ Basic", cursive;
+       color: black;
+}
+
+.text_pessoa p {
+    font-size: 16px;
+    opacity: 0.9;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+h2{
+    color: #9c8fffc4;
+     text-align: center;
+    font-family: "Playwrite NZ Basic", cursive;
+    font-weight: 900;
+     font-size: 32px;
+    margin: 16px auto;
+}

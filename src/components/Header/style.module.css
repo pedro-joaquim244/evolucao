@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+h1,h2,p{
+    cursor: default;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background: rgb(8, 8, 8);
+    color: rgb(253, 253, 253);
+    height: 85px;
+
+    position: fixed;   /* FIXO */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;       /* FICA POR CIMA */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: "Poppins", sans-serif;
+
+    h1{
+        color: #9c8fffc4;
+        font-family: "Playwrite NZ Basic", cursive; 
+         &:hover{
+        cursor: pointer;
+    }
+    }
+    
+}
+
+nav{
+display: flex;
+gap: 32px;
+justify-content: center;
+align-items: center;
+font-family: "Poppins", sans-serif;
+margin-right: 258px;
+    a{
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+        font-size: 22px;
+        color: white;
+        
+        &:hover{
+            transition: 0.322s;
+            color:#9c8fffc4; 
+             text-decoration: underline;  
+             cursor: pointer; 
+        }
+    }
+    
+}

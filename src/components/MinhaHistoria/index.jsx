@@ -24,7 +24,7 @@ export default function MinhaHistoria() {
         </p>
       </div>
 
-      <h2 className={style.subTitlePeople}>Pessoas que eu gosto:</h2>
+      <h2 className={style.subTitlePeople}>Pessoas que fazem parte da minha história:</h2>
 
       <div className={style.pessoas}>
 

@@ -11,8 +11,8 @@ function App() {
       <Header/>
       <SobreMim/>
       <MeusGostos/>
-      <MeuFuturo/>
       <MinhaHistoria/>
+      <MeuFuturo/>
     </>
   );
 }

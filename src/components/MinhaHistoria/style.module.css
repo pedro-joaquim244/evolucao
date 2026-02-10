@@ -27,7 +27,7 @@
 }
 
 .card h2 {
-    font-size: 1.3rem;
+    font-size: 30px;
     margin-bottom: 15px;
     color: rgb(8, 8, 8);
     text-align: center;
@@ -110,8 +110,8 @@
 .text_pessoa h3 {
     font-size: 24px;
     font-weight: 700;
-       font-family: "Playwrite NZ Basic", cursive;
-       color: black;
+    font-family: "Playwrite NZ Basic", cursive;
+    color: black;
 }
 
 .text_pessoa p {
@@ -121,11 +121,21 @@
     font-weight: 800;
 }
 
-h2{
+h2 {
     color: #9c8fffc4;
-     text-align: center;
+    text-align: center;
     font-family: "Playwrite NZ Basic", cursive;
     font-weight: 900;
-     font-size: 32px;
-     margin-bottom: 22px;
+    font-size: 32px;
+    margin-bottom: 22px;
+}
+
+.descricao{
+    
+        color: #9c8fffc4;
+        text-align: center;
+        font-family: "Playwrite NZ Basic", cursive;
+        font-weight: 900;
+        margin: 32px;
+    
 }

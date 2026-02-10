@@ -2,7 +2,7 @@
 
     import foto from "../../images/foto-minha.jpg";
     import img1 from "../../images/IMG_4383.jpeg";
-    import img2 from "../../images/IMG_4177.jpeg";
+    import img2 from "../../images/IMG_4 177.jpeg";
     import img3 from "../../images/IMG_4164.jpeg";
 
     import { Swiper, SwiperSlide } from "swiper/react";
@@ -23,7 +23,7 @@
     return (
         <div className={style.Hero}> 
         <div className={style.text}>
-            <h2>Quem eu sou ?</h2>
+            <h2 className={style.title}>Quem eu sou ?</h2>
             <p>Eu sou o Pedro Joaquim eu tenho 16 anos e estou ensino médio, sou muito interessado na área de programação e desenvolvimento, com foco em aprendizado constante e crescimento profissional. Tenho cabelo cacheado, cuido bastante da minha aparência.Sou dedicado, organizado e busco evoluir tanto nos estudos quanto nos meus objetivos pessoais, como a faculdade.</p>
         </div>
         <section className={style.container}>

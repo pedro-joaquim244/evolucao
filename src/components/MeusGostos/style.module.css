@@ -11,6 +11,7 @@ h1 {
 .Hobbies-wrapper {
     width: 100%;
     overflow: hidden;
+    margin-bottom: 32px;
 }
 
 .Hobbies {
@@ -38,7 +39,7 @@ h1 {
     display: flex;
     gap: 48px;
     width: 55%;
-    margin: 11px auto;
+    margin: 32px auto;
     border-radius: 32px;
     box-shadow: rgba(196, 159, 255, 0.16) 0px 1px 4px, rgb(117, 78, 255) 0px 0px 0px 3px;
 
@@ -66,6 +67,6 @@ h1 {
     }   
 }
 
-h2{
-    margin-top: 40px;
+.descricao{
+   margin-top: 22px;
 }

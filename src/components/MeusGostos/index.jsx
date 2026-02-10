@@ -37,7 +37,7 @@ export default function MeusGostos() {
   </div>
 </div>
 
-        <h2>O que essas fotos representam:</h2>
+        <h2 className={style.descricao}>O que essas fotos representam:</h2>
  <div className={style.Card}>
     <div className={style.text}>
         <p>Como as fotos mostram, eu tenho diversos hobbies e interesses. Gosto de mexer no meu computador, explorar e aprender coisas novas na área de tecnologia, sair para dar uma volta de carro, praticar esportes, como o vôlei, e também dedicar um tempo para arrumar meu cabelo. Essas atividades fazem parte da minha rotina e refletem meus gostos e minha forma de aproveitar o tempo livre.    

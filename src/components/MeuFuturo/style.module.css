@@ -1,5 +1,5 @@
-section{
-    cursor: default;
+section {
+  cursor: default;
 }
 
 /* Título principal */
@@ -7,17 +7,18 @@ section{
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 32px;
-  color:#9c8fffc4;
+  color: #9c8fffc4;
   letter-spacing: 1px;
 }
 
 /* Container dos cards */
 .cards {
   display: flex;
- gap: 70px;
+  gap: 70px;
   justify-content: center;
   flex-wrap: wrap;
-   
+  margin-bottom: 32px;
+
 }
 
 /* Card individual */
@@ -28,21 +29,21 @@ section{
   width: 490px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
+
 }
 
 /* Efeito hover */
 .card:hover {
   transform: translateY(-8px);
-  
+
 }
 
 /* Subtítulo */
 .subtitle {
   font-size: 1.3rem;
   margin-bottom: 15px;
- color: rgb(8, 8, 8);
- text-align: center;
+  color: rgb(8, 8, 8);
+  text-align: center;
   font-family: "Playwrite NZ Basic", cursive;
   font-weight: 900;
 

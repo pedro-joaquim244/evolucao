@@ -5,6 +5,7 @@ import "./styles/App.css";
 import MeuFuturo from "./components/MeuFuturo";
 import { Swiper, SwiperSlide } from "swiper/react";
 import MinhaHistoria from "./components/MinhaHistoria";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <MeusGostos/>
       <MinhaHistoria/>
       <MeuFuturo/>
+      <Footer/>
     </>
   );
 }

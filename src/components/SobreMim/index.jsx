@@ -2,7 +2,7 @@
 
     import foto from "../../images/foto-minha.jpg";
     import img1 from "../../images/IMG_4383.jpeg";
-    import img2 from "../../images/IMG_4 177.jpeg";
+    import img2 from "../../images/IMG_4177.jpeg";
     import img3 from "../../images/IMG_4164.jpeg";
 
     import { Swiper, SwiperSlide } from "swiper/react";
